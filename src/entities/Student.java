@@ -57,6 +57,9 @@ public class Student {
             }
     }
 
+    public  void addMaterial(String material){
+            materials .add(new Material(material));
+    }
 
 
 
